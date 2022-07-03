@@ -1,0 +1,81 @@
+html{
+    /* fonts for whole page */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    list-style: none;
+}
+div{
+    /* div general rule */
+    width : 75%;
+    height : auto;
+    margin : 0 auto;
+}
+.wrapper {
+    border : 5px solid blueviolet;
+    padding : 20px;
+}
+#header{
+    /* header style */
+    border : 5px solid blueviolet;
+    text-align: center;  
+    padding : 20px;
+}
+/* about me style */
+#aboutMe{
+    border : 5px solid rosybrown;
+    padding : 20px;
+}
+#aboutMe > img{
+    border : 5px solid cyan;
+    border-radius: 50%;
+
+}
+#img-div{
+    /* width : 50%; */
+    padding : 0;
+    text-align: center;
+    /* background-color: aqua; */    
+}
+#projectsAll{
+    border: 5px solid gray;
+    /* width: 100%; */
+}
+.projectInfo{
+    width : 33%;
+    height: auto;
+    margin : 0 0;
+    display: inline-block;
+}
+
+#skill > ul > li{
+    display: inline-block;
+    margin-right: 40px; 
+}
+
+#projectOne > img{
+    width : 90%;
+    text-align: left;
+}
+
+#education > ul > li {
+    display: inline-block;
+    width : 33%
+}
+#language > ul > li {
+    display: inline-block;
+    width : 33%
+}
+#social > ul > li {
+    display: inline-block;
+    width : 33%
+}
+#contact > input{
+    width : 100%;
+    height: 25px;
+    margin-bottom : 30px;
+}
+#contact > textarea{
+    width : 100%;
+    height: 100px;
+}
